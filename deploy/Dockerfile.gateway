@@ -1,0 +1,3 @@
+FROM caddy@sha256:173b26306d711395accaeba8b67afcaad2a085ccb1e6bf26010bfe8c095a5229
+RUN setcap -r /usr/bin/caddy && test -z "$(getcap /usr/bin/caddy)"
+USER 65532:65532

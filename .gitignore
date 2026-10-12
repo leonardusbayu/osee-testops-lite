@@ -1,0 +1,22 @@
+# Private runtime, host provenance and credentials
+.local/
+.superpowers/
+.candidate-owner.json
+.env
+.env.*
+**/AGENTS.md
+docs/campaign/evidence/
+
+# Generated caches and output
+__pycache__/
+*.py[cod]
+*.log
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+bin/
+dist/
+coverage/
